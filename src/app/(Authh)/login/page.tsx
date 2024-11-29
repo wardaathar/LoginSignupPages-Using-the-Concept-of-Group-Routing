@@ -36,7 +36,7 @@ export default function LoginPage() {
          <br></br> <button type="submit" >Login</button>
       </form>
       <div className="auth-links">
-        <Link href="/signup">Create New Acount? Sign up</Link>
+        <Link href="/signup">Create New Acount? Sign Up Now</Link>
       </div>
     </div>
   );

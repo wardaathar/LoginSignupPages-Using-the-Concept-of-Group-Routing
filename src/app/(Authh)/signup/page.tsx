@@ -4,6 +4,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
+
 export default function SignupPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -15,7 +16,7 @@ export default function SignupPage() {
       alert("Please Correct your Password");
       return;
     }
-    
+
     console.log("Signed up with", username, password);
   };
 
